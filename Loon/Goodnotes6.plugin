@@ -3,8 +3,7 @@
 #!author=AllsVoid
 
 [Rewrite]
-^https:\/\/isi\.csan\.goodnotes.*\/v1\/subscribers\/[a-f0-9\-]{36}$ header https://auth.crushark.com/
-^https:\/\/isi\.csan\.goodnotes.*\/v1\/receipts$ header https://auth.crushark.com/
-^https:\/\/isi\.csan\.goodnotes.*\/nest\/.*\/sync$ header https://auth.crushark.com/
+^https:\/\/isi\.csan\.goodnotes.*\/v1\/subscribers\/[a-f0-9\-]{36}$ header https://goodnotes.yko.workers.dev/
+
 [MITM]
 hostname = isi.csan.goodnotes.com.*, isi.csan.goodnotes.com
